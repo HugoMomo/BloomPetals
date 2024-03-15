@@ -137,12 +137,27 @@ form {
   background-size: 300px;
   padding: 20px;
 }
-@media (max-width: 680px) {
+@media (max-width: 780px) {
   .div-equip1 {
     flex-direction: column;
     width: 80%;
   }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .imgdebut {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 }
+
 .imgequip {
   height: 180px;
   border-radius: 50%;
@@ -159,8 +174,4 @@ form {
   padding: 20px;
   border: solid;
   border-radius: 15px;
-}
-@media screen {
-  .home {
-  }
 }
